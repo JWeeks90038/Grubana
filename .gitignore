@@ -134,3 +134,24 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# Build output
+dist/
+build/
+
+# Environment variables (DO NOT commit .env)
+.env
+.env.local
+.env.*.local
+
+# Firebase cache (if using Firebase Hosting locally)
+.firebase/
+
+# Hosting platforms (optional)
+.vercel/
+.netlify/
+
+# OS/IDE junk
+.DS_Store
+.vscode/
+.idea/
